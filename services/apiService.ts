@@ -24,7 +24,7 @@ class ApiService {
         body: JSON.stringify({
           email: leadData.email,
           company_name: leadData.name,
-          website_url: leadData.url,
+          website_url: leadData.url.toString(),
           phone: leadData.phone,
           intent: 'Voice AI consultation'
         })
