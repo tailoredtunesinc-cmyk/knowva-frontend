@@ -7,7 +7,7 @@
   "rewrites": [
     {
       "source": "/api/:path*",
-      "destination": "https://theknownetworkcorp.com/api/:path*"
+      "destination": "https://api.theknownetworkcorp.com/:path*"
     }
   ]
 }
