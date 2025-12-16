@@ -1,0 +1,7 @@
+{
+  "name": "KnowVA - Voice AI Intelligence",
+  "description": "Premium Enterprise Voice AI Agency platform featuring a real-time intelligent analysis console.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
