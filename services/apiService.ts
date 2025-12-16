@@ -10,8 +10,8 @@ class ApiService {
   private baseUrl: string;
 
   constructor() {
-    // Use environment variable with fallback
-    this.baseUrl = import.meta.env.VITE_API_URL || 'http://72.61.79.237:8000';
+    // Use HTTPS with direct VPS IP until DNS is fixed
+    this.baseUrl = import.meta.env.VITE_API_URL || 'https://72.61.79.237:443';
   }
 
   async submitLead(leadData: LeadData): Promise<ApiResponse> {
