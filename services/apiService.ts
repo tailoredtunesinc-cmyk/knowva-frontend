@@ -10,8 +10,8 @@ class ApiService {
   private baseUrl: string;
 
   constructor() {
-    // Use HTTPS with direct VPS IP until DNS is fixed
-    this.baseUrl = import.meta.env.VITE_API_URL || 'https://72.61.79.237:443';
+    // Use API subdomain for HTTPS support
+    this.baseUrl = import.meta.env.VITE_API_URL || 'https://api.theknownetworkcorp.com';
   }
 
   async submitLead(leadData: LeadData): Promise<ApiResponse> {
